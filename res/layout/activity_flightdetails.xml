@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:orientation="vertical"
+    android:weightSum="9"
+    tools:context=".Flightdetails"
+    android:background="@drawable/back_design">
+
+   <LinearLayout
+       android:layout_weight="1"
+       android:layout_width="match_parent"
+       android:layout_height="0dp" >
+
+       <androidx.appcompat.widget.Toolbar
+           android:layout_width="match_parent"
+           android:id="@+id/tols"
+           android:layout_height="?attr/actionBarSize">
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+           android:text="MY TRIPS"
+               android:textColor="#ffffff"
+               android:layout_gravity="center"
+               android:textSize="16dp"/>
+       </androidx.appcompat.widget.Toolbar>
+   </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:padding="10dp"
+        android:background="@drawable/recycler">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Flight-Id:101"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/colorPrimary"
+            android:textSize="30dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:id="@+id/id"
+            android:textStyle="bold"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="Flight-Name:Air-India"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20dp"
+            android:layout_marginLeft="180dp"
+            android:textStyle="bold"
+           />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="100dp"
+    android:text="Source-"
+    android:textStyle="bold"
+    android:textColor="@color/colorPrimary"
+    android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+            android:text="Destination-"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bangalore"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="105dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mumbai"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="154dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="200dp"
+            android:text="Arrival-"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Departure-"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginTop="240dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="210dp"
+            android:text="12:00pm"
+            android:layout_marginLeft="120dp"
+            android:textColor="@color/colorPrimary"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="243dp"
+            android:text="2:00pm"
+            android:layout_marginLeft="120dp"
+            android:textColor="@color/colorPrimary"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NO. of Travellers"
+            android:textSize="20dp"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            android:layout_marginTop="280dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="01"
+            android:layout_marginTop="280dp"
+            android:layout_marginLeft="200dp"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cabin Class-"
+            android:textSize="20dp"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            android:layout_marginTop="330dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Economy"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="330dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Amount-"
+            android:textSize="20dp"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            android:layout_marginTop="380dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5,000"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginTop="380dp"
+            android:layout_marginLeft="150dp"/>
+
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".splashactivity"
+    android:orientation="vertical"
+    android:paddingBottom="50dp"
+    android:gravity="center"
+    android:background="@drawable/back_design">
+
+
+
+    <EditText
+        android:id="@+id/full"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:drawableLeft="@drawable/ic_person_black_24dp"
+
+        android:hint="Full Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/last"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:drawableLeft="@drawable/ic_person_black_24dp"
+        android:hint="Last Name"
+        android:inputType="textPersonName" />
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:drawableLeft="@drawable/ic_local_post_office_black_24dp"
+        android:hint="Enter email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/phn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:drawableLeft="@drawable/ic_phones_black_24dp"
+        android:hint="Enter Mobile Number"
+        android:inputType="textPhonetic" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gender"
+
+        android:textColor="@color/colorPrimary"
+        android:textSize="22sp"
+        android:layout_marginRight="130dp"
+        android:id="@+id/coach"
+        android:textStyle="bold"
+        />
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Radiogroup">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="130dp"
+            android:text="Female"
+            android:onClick="Selected"
+            android:id="@+id/radio1"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male"
+            android:onClick="Selected"
+            android:id="@+id/radio2"/>
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/radio3"
+        android:layout_width="194dp"
+        android:layout_height="43dp"
+        android:text="Selected Gender-" />
+
+    <Button
+        android:id="@+id/radio4"
+        android:layout_width="76dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-4dp"
+
+        android:text="OK" />
+
+    <Button
+        android:id="@+id/savebtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SAVE"
+        android:textColor="#ffffff"
+        android:background="@color/colorPrimary"
+        />
+
+
+
+</LinearLayout>

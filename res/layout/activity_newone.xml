@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".splashactivity"
+    android:orientation="vertical"
+    android:paddingBottom="50dp"
+    android:gravity="center"
+    android:background="@drawable/back_design">
+
+
+
+    <EditText
+        android:id="@+id/source"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+
+
+        android:hint="Enter Source"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/destine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+
+        android:hint="Enter Destination"
+        android:inputType="textPersonName" />
+    <EditText
+        android:id="@+id/departure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+
+        android:hint="Enter Departure"
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/Return"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+
+        android:hint="Enter Return"
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+
+        android:hint="No of Travels"
+        android:inputType="date" />
+    <TextView
+        android:id="@+id/Coach"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Enter Cabin Class"
+        android:inputType="date" />
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Radiogroup">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Economy"
+            android:onClick="Select"
+            android:id="@+id/radio1"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Business"
+            android:onClick="Select"
+            android:id="@+id/radio2"/>
+    </RadioGroup>
+    <TextView
+        android:id="@+id/radio3"
+        android:layout_width="194dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="10dp"
+        android:text="Selected Class-" />
+
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="100dp"
+        android:text="Ok"
+        android:id="@+id/b"/>
+
+
+    <Button
+        android:id="@+id/savebtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="SAVE"
+        android:textColor="#ffffff" />
+
+
+</LinearLayout>

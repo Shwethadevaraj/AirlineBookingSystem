@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".splashactivity"
+    android:orientation="vertical"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <include layout="@layout/toolbar"
+            android:id="@+id/tools"
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="233dp"
+            android:src="@drawable/flights" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Flight-Id:101"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/colorPrimary"
+            android:textSize="30dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:id="@+id/id"
+            android:textStyle="bold"
+            />
+
+
+        <TextView
+            android:id="@+id/fname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:layout_marginLeft="159dp"
+            android:text="Flight Name:Kingfisher"
+            android:layout_marginTop="-40dp"
+            android:textColor="@color/colorPrimary"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/src"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:text="Source-Bangalore"
+            android:textColor="@color/colorPrimary"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/destination"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Destination-Mumbai"
+            android:textColor="@color/colorPrimary"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Arrival-12:00 PM"
+            android:textColor="@color/colorPrimary"
+            android:textSize="22sp"
+            android:id="@+id/arr"
+            android:layout_marginTop="1dp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Departure-2:00 PM"
+            android:textColor="@color/colorPrimary"
+            android:textSize="22sp"
+            android:id="@+id/dep"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Amount-4,000"
+            android:textColor="@color/colorPrimary"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:id="@+id/amt"
+            android:layout_marginTop="1dp"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn"
+            android:text="BOOK"
+            android:layout_gravity="center"
+            android:background="@drawable/ed_design"
+            android:textColor="#ffffff"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Flight-Id:102"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/colorPrimary"
+            android:textSize="30dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:id="@+id/id2"
+            android:textStyle="bold"
+            />
+
+
+        <TextView
+            android:id="@+id/fname2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:layout_marginLeft="159dp"
+            android:text="Flight Name:Air-Asia"
+            android:layout_marginTop="-40dp"
+            android:textColor="@color/colorPrimary"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/src2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:text="Source-Bangalore"
+            android:textColor="@color/colorPrimary"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/destination2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Destination-Mumbai"
+            android:textColor="@color/colorPrimary"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Arrival-3:00 PM"
+            android:textColor="@color/colorPrimary"
+            android:textSize="22sp"
+            android:id="@+id/arr2"
+            android:layout_marginTop="1dp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Departure-5:00 PM"
+            android:textColor="@color/colorPrimary"
+            android:textSize="22sp"
+            android:id="@+id/dep2"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Amount-3,000"
+            android:textColor="@color/colorPrimary"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:id="@+id/amt2"
+            android:layout_marginTop="1dp"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn2"
+            android:text="BOOK"
+            android:layout_gravity="center"
+            android:background="@drawable/ed_design"
+            android:textColor="#ffffff"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Flight-Id:103"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/colorPrimary"
+            android:textSize="30dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:id="@+id/id1"
+            android:textStyle="bold"
+            />
+
+
+        <TextView
+            android:id="@+id/fname1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:layout_marginLeft="159dp"
+            android:text="Flight Name:Air-India"
+            android:layout_marginTop="-40dp"
+            android:textColor="@color/colorPrimary"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/src1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:text="Source-Bangalore"
+            android:textColor="@color/colorPrimary"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/destination1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Destination-Mumbai"
+            android:textColor="@color/colorPrimary"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Arrival-7:00 PM"
+            android:textColor="@color/colorPrimary"
+            android:textSize="22sp"
+            android:id="@+id/arr1"
+            android:layout_marginTop="1dp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Departure-9:00 PM"
+            android:textColor="@color/colorPrimary"
+            android:textSize="22sp"
+            android:id="@+id/dep1"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Amount-4,000"
+            android:textColor="@color/colorPrimary"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:id="@+id/amt1"
+            android:layout_marginTop="1dp"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn1"
+            android:text="BOOK"
+            android:layout_gravity="center"
+            android:background="@drawable/ed_design"
+            android:textColor="#ffffff"/>
+    </LinearLayout>
+
+
+</ScrollView>

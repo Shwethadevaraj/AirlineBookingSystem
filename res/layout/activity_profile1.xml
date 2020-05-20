@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".ProfileActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/secondlayer"
+        >
+        <include layout="@layout/toolbar"
+            android:id="@+id/toolbar"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="287dp"
+                android:background="@drawable/firstlayer"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/img"
+                    android:layout_width="170dp"
+                    android:layout_height="171dp"
+                    android:src="@drawable/ic_person_outline_black_24dp"
+                   />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15sp"
+                android:id="@+id/nam"
+                android:textStyle="bold"
+                android:drawableLeft="@drawable/ic_person_add_black_24dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SHWETHA D"
+                android:textColor="@color/colorPrimary"
+                android:textSize="22sp"
+                android:id="@+id/namess"
+                android:textStyle="bold"
+                android:inputType="textPersonName"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15sp"
+                android:id="@+id/mails"
+                android:layout_marginTop="30dp"
+                android:textStyle="bold"
+                android:drawableLeft="@drawable/ic_local_post_office_blacks_24dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="shwe@gamil.com"
+                android:textColor="@color/colorPrimary"
+                android:textSize="22sp"
+                android:id="@+id/mailids"
+                android:textStyle="bold"
+                android:inputType="textEmailAddress"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:id="@+id/pho"
+                android:drawableLeft="@drawable/ic_phone_black_24dp"
+                android:layout_marginTop="30dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0123456789"
+                android:textColor="@color/colorPrimary"
+                android:textSize="22sp"
+                android:id="@+id/phnos"
+                android:textStyle="bold"
+                android:inputType="phone"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gender1"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:id="@+id/gender"
+                android:drawableLeft="@drawable/ic_phone_black_24dp"
+                android:layout_marginTop="30dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Male"
+                android:textColor="@color/colorPrimary"
+                android:textSize="22sp"
+                android:id="@+id/male1"
+                android:textStyle="bold"
+                android:inputType="text"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/doness"
+                android:text="DONE"
+                android:layout_gravity="center"
+                android:background="@drawable/ed_design"
+                android:textColor="#ffffff"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
